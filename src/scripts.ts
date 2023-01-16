@@ -37,7 +37,7 @@ const colorClasses = (lastColor: string): string => {
 
     const itemsColor = ['lime', 'blue', 'yellow', 'pink', 'dark']
 
-    let colIndex = Math.floor(Math.random() * 4)
+    let colIndex = Math.floor(Math.random() * 5)
     
     let newCol = 'grid__item--' + itemsColor[colIndex]
 
