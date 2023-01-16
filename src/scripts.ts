@@ -102,7 +102,7 @@ gridItems[0].addEventListener('mouseenter', () => {
 })
 
 
-const txt = <HTMLInputElement>document.querySelector('.input') // as HTMLInputElement
+const txt = document.querySelector<HTMLInputElement>('.input') // as HTMLInputElement
 txt.addEventListener('keyup', () => {
     document.querySelector('.input-mirror').innerHTML = txt.value
 })
